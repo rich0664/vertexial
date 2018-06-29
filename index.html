@@ -5,7 +5,8 @@
       #logo{
         background-color:#808284;
         display:block;
-        margin:0px 0px 40px;
+        margin:0px 0px 0px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.77)
       }
       body{
         margin:0;
@@ -21,32 +22,30 @@
         color:white;
         text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.77);
       }
+      #container{
+        margin-top: 40;
+      }
     </style>
     
   </head>
 <body>
+
   <div id="logo"><img src="http://i.imgur.com/0STSgvP.png" height="200"></div>
-<video autoplay loop id="backgroundgif">
-    <source src="https://gfycat.com/OilyVigilantIchthyostega" type="video/webm">
+
+    <video autoPlay loop muted id="backgroundgif">
+    <source src="https://fat.gfycat.com/BigShowyFallowdeer.webm" type="video/webm">
 </video>
   <style>
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
+    #backgroundgif {
+    position: fixed; right: 50%; top:  50%;
+    transform: translate(50%, -50%);
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
 }
-  </style>
+  </style>  
+<div id="container">
 <center><h2>There will be a webpage here soon</h2></center>
   <center><h4>for any inquiries: mail@vertexial.com</h4></center>
+</div>
 </body>
 </html>
